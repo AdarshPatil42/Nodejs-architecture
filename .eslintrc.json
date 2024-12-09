@@ -1,0 +1,22 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:sonarjs/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "plugins": ["sonarjs", "prettier"],
+  "rules": {
+    "sonarjs/cognitive-complexity": "warn",
+    "sonarjs/no-duplicate-string": "warn",
+    "sonarjs/no-identical-functions": "warn",
+    "sonarjs/no-identical-methods": "warn",
+    "sonarjs/no-unused-methods": "warn",
+    "sonarjs/no-useless-catch": "warn",
+    "sonarjs/prefer-immediate-return": "warn",
+    "sonarjs/prefer-object-literal": "warn",
+    "sonarjs/prefer-private-fields": "warn",
+    "sonarjs/prefer-reduce": "warn",
+    "sonarjs/prefer-single-return": "warn",
+    "sonarjs/use-function-type": "warn"
+  }
+}

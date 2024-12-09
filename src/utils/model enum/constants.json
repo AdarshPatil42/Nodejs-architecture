@@ -1,0 +1,8 @@
+{
+  "enums": {
+    "designation": {
+      "SR": "Sr",
+      "JR": "Jr"
+    }
+  }
+}
